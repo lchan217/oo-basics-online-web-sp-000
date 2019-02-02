@@ -7,7 +7,7 @@ class Shoe
     @material = material
     @condition = condition
   end 
-  def cobble
-    
+  def cobble(condition)
+    "Your shoe is as good as #{condition}!"
   end 
 end 
