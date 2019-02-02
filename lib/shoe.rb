@@ -8,6 +8,6 @@ class Shoe
     @condition = condition
   end 
   def cobble
-    return "Your shoe is as good as #{@condition}!"
+    puts "Your shoe is as good as #{@condition}!"
   end 
 end 
